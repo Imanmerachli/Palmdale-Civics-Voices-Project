@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palmdale Civic Voices Project</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefefe;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #6699cc, #88c0d0);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      padding: 10px 20px;
+      background-color: #e0e0e0;
+      border-radius: 8px;
+    }
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #336699;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #336699;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      padding: 10px 20px;
+      background-color: #336699;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .contact-info {
+      margin-top: 20px;
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .survey-box {
+      margin-top: 30px;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to The Palmdale Civic Voices Project, where our journey begins.</h1>
+    <p>Discover the voices shaping Palmdale through youth-led interviews and reflections that highlight leadership, policy, and community impact.</p>
+  </header>
+
+  <nav>
+    <a href="#articles">Read Articles</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>Our mission is to connect youth with local government by sharing real stories from Palmdale’s civic leaders. Through interviews and reflections, we aim to inspire the next generation to understand, engage with, and shape their community.</p>
+
+    <h2>About Us</h2>
+    <p>The Palmdale Civic Voices Project is a youth-led initiative that highlights the stories of local leaders through interviews and articles. Our goal is to make civic life more accessible, relatable, and inspiring for young people in our community.</p>
+
+    <h2>Local Voices — Real Impact</h2>
+    <p>Get to know the leaders shaping Palmdale—one story, one voice, one impact at a time.</p>
+
+    <a class="button" href="#articles">Explore the Stories</a>
+  </section>
+
+  <section id="articles">
+    <h2>Articles</h2>
+    <p>Discover inspiring stories from Palmdale’s local leaders, highlighting their work and impact on the community. These interviews aim to engage and motivate youth to get involved in civic life.</p>
+
+    <!-- Button to add more articles (in future: CMS or form) -->
+    <a class="button" href="#">Add New Article</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions, ideas, or want to get involved? Reach out—we’d love to hear from you.</p>
+    <div class="contact-info">
+      <p><strong>Name:</strong> Iman Merachli</p>
+      <p><strong>Email:</strong> <a href="mailto:imanmerachli4@gmail.com">imanmerachli4@gmail.com</a></p>
+    </div>
+    <div class="survey-box">
+      <h3>Leave Us a Message or Feedback</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Leave us a message or feedback here..." rows="5"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
